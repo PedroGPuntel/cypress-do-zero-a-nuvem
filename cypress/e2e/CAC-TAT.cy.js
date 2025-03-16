@@ -114,6 +114,7 @@ describe("Central de Atendimento ao Cliente TAT", () => {
     ///  cy.get('input[type="radio"]')
     /// .check("ajuda")
     /// .should('have.value', 'ajuda')
+    
   });
 
   it("marca ambos checkboxes, depois desmarca o último", () => {
